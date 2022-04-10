@@ -1,0 +1,386 @@
+/* Here you can include your additional CSS Styles */
+
+#klantenvertelleniframehome {
+	width: 100px;
+}
+
+.item-page.h3 {
+	font-size: 100%;
+	line-height: 150%;
+}
+
+a.btn-go-back:hover {
+	color: #fff;
+}
+
+/* BLOG PAGINA */
+.blog .page-header h2 a {
+	font-weight: bold;
+	color: #920A41;
+	text-decoration: none;
+}
+
+.blog .items-leading h2 a {
+	font-size: 30px;
+}
+
+.blog .items-row h2 a {
+	font-size: 20px;
+}
+
+.blog .readmore a {
+	display: inline-block;
+	background: #F1BA3D;
+	color: #920A41;
+	text-decoration: none;
+	font-weight: bold;
+	padding: .5em 1em;
+	position: relative;
+	margin-right: 15px;
+	transition: all .3s ease-in-out;
+	border: none;
+	border-radius: 0;
+	white-space: normal;
+	text-align: left;
+}
+
+.blog .readmore a:hover {
+	background: #FFF3DD;
+}
+
+.blog .readmore a::after {
+	content: '';
+	display: block;
+	height: 1em;
+	width: 1em;
+	background: transparent;
+	right: -15px;
+	bottom: 0;
+	position: absolute;
+	border-style: solid;
+	border-width: 20px 0 0 20px;
+	border-color: transparent transparent transparent #F1BA3D;
+	transition: all .3s ease-in-out;
+}
+
+.blog .readmore a:hover::after {
+	border-color: transparent transparent transparent #FFF3DD;
+}
+
+.footer-dealers > div {
+	line-height: 1em;
+	margin-bottom: .5em;
+}
+
+#zo2-component .item-page h1 {
+	font-size: 30px;
+}
+
+@media (max-width: 767px) {
+	.content-article .prehead {
+		font-size: 1em;
+	}
+
+	#zo2-component .item-page h1 {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.blog .items-leading h2,
+	.blog .items-leading h2 a {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	#zo2-component h2,
+	#zo2-component h3,
+	#zo2-component h4,
+	#zo2-component h5,
+	#zo2-component h6,
+	#zo2-component h2 a,
+	#zo2-component h3 a,
+	#zo2-component h4 a,
+	#zo2-component h5 a,
+	#zo2-component h6 a,
+	#zo2-sidebar h2,
+	#zo2-sidebar h3,
+	#zo2-sidebar h4,
+	#zo2-sidebar h5,
+	#zo2-sidebar h6,
+	#zo2-sidebar .module h2.moduletitle span,
+	#zo2-sidebar .module h3.moduletitle span,
+	#zo2-sidebar .module h4.moduletitle span,
+	#zo2-sidebar .module h5.moduletitle span,
+	#zo2-sidebar .module h6.moduletitle span {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	#zo2-highlights-wrap > .container, #zo2-kkbottom-wrap > .container, #zo2-kkfooter-wrap > .container {
+		padding: 0;
+	}
+}
+
+/* Mobile sub-header */
+
+#zo2-mobile-sub-header {
+	margin: 0;
+	padding: 0;
+}
+
+#zo2-mobile-sub-header .nav.menu {
+	border-top: 1px solid #F1BA3D;
+}
+
+#zo2-mobile-sub-header .nav.menu li {
+	display: block;
+	border-bottom: 1px solid #F1BA3D;
+	background: #920A41;
+}
+
+#zo2-mobile-sub-header .nav.menu li a {
+	background: transparent;
+	text-decoration: none;
+	color: #fff;
+	padding-left: 1.2em;
+	margin-left: 1em;
+	position: relative;
+	transition: color .2s ease-out;
+}
+
+#zo2-mobile-sub-header .nav.menu li a:hover,
+#zo2-mobile-sub-header .nav.menu li a:focus,
+#zo2-mobile-sub-header .nav.menu li a:active {
+	background: transparent;
+	color: #F1BA3D;
+}
+
+#zo2-mobile-sub-header .nav.menu li a::before {
+	content: '>';
+	color: #F1BA3D;
+	position: absolute;
+	left: 0;
+}
+
+/* Mobile banner */
+
+#zo2-mobile-banner {
+	margin: 0;
+	padding: 0;
+}
+
+#zo2-mobile-banner .custom * {
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 767px) {
+	.article .zo2-wrapper #zo2-body-wrap,
+	.category #zo2-body-wrap {
+		padding-top: 0;
+	}
+
+	#zo2-header-top .slogan {
+		padding: 4px 10px;
+		font-size: 12px;
+	}
+}
+
+
+@media (max-width: 400px) {
+	h3 {
+		font-size: 1.5em;
+	}
+}
+
+
+body.listemployee #zo2-body-wrap #zo2-component {
+	margin-top: 20px;
+}
+
+body.listemployee .sticky-wrapper.is-sticky ~ #zo2-body-wrap #zo2-component {
+	margin-top: 120px;
+}
+
+body.listemployee #zo2-component .bookingformdiv > .btn-info,
+body.listemployee #zo2-component .employee_timeslots > div > div > div > div.btn-info {
+	display: block;
+	background-color: #920A41;
+	border-color: #920A41;
+	border-radius: 0;
+}
+
+
+body.listemployee #zo2-component .bookingformdiv .btn.btn-danger {
+	background-color: #920A41;
+	border-color: #920A41;
+}
+
+body.listemployee #zo2-component .bookingformdiv .btn.btn-warning {
+	background-color: #F1BA3D;
+	border-color: #F1BA3D;
+	color: black;
+}
+
+body.listemployee #zo2-component .bookingformdiv input[name="addtocartbtn"] {
+	background-color: #920A41;
+	border-color: #920A41;
+	color: white;
+	font-weight: bold;
+}
+
+
+#zo2-component #dialogstr4,
+#zo2-component #dialogstr4 + h2.orderdetailsheading {
+	display: none;
+}
+
+#zo2-component .orderdetailsheader {
+	margin: 20px 0;
+}
+
+#zo2-component .orderconfirmationmessage {
+	margin-top: 20px;
+	background: #f1ba3d;
+	color: black;
+	padding: 1em 2em;
+	font-weight: bold;
+	border: 1px solid black;
+}
+
+#zo2-component .bookinginstructionmessage {
+	margin: 20px 0;
+	background: #f1ba3d;
+	color: black;
+	padding: 1em 2em;
+	font-weight: normal;
+	border: 1px solid black;
+}
+
+#zo2-component .bookinginstructionmessage li {
+	list-style: inside decimal;
+}
+
+#bookingForm #dial_code {
+	display: none;
+}
+
+.osbfootercontent {
+	display: none !important;
+}
+
+#orderdetailstable tr td {
+	border-top: 1px solid black !important;
+	border-bottom: none !important;
+}
+
+#orderdetailstable tr:last-child td {
+	border-bottom: 1px solid black !important;
+}
+
+#orderdetailstable {
+	margin-bottom: 2em;
+}
+
+#listServicesTable tr.success td,
+#listOrderServices .orderdetailstabletd {
+	color: black;
+	font-size: 1rem;
+}
+
+.module.bg-red {
+	background: #920A41;
+	color: white;
+}
+
+
+#calendardetails table .btn.btn-gray {
+	background: transparent !important;
+	color: black !important;
+	border: none !important;
+	font-weight: 300 !important;
+	text-shadow: none !important;
+}
+
+img[src="/components/com_osservicesbooking/asset/images/icons/previous_transparent.png"],
+img[src="/components/com_osservicesbooking/asset/images/icons/next_transparent.png"] {
+	border: 0px;
+	background: white;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+
+body.listemployee #zo2-component .bookingformdiv > .btn-info table tr:first-child td.headercalendar:first-child,
+body.listemployee #zo2-component .employee_timeslots > div > div > div > div.btn-info table tr:first-child td.headercalendar:first-child {
+	text-align: left;
+}
+
+body.listemployee #zo2-component .bookingformdiv > .btn-info table tr:first-child td.headercalendar:last-child,
+body.listemployee #zo2-component .employee_timeslots > div > div > div > div.btn-info table tr:first-child td.headercalendar:last-child {
+	text-align: right;
+}
+
+@media screen and (min-width: 450px) {
+	body.listemployee #zo2-component .bookingformdiv > .btn-info table tr:first-child td.headercalendar:first-child a.applink::after,
+	body.listemployee #zo2-component .employee_timeslots > div > div > div > div.btn-info table tr:first-child td.headercalendar:first-child a.applink::after,
+	body.listemployee #zo2-component .bookingformdiv > .btn-info table tr:first-child td.headercalendar:last-child a.applink::before,
+	body.listemployee #zo2-component .employee_timeslots > div > div > div > div.btn-info table tr:first-child td.headercalendar:last-child a.applink::before {
+		display: inline-block;
+		text-decoration: underline;
+	}
+}
+
+@media screen and (min-width: 450px) and (max-width: 749px) {
+	body.listemployee #zo2-component .bookingformdiv > .btn-info table tr:first-child td.headercalendar:first-child a.applink::after,
+	body.listemployee #zo2-component .employee_timeslots > div > div > div > div.btn-info table tr:first-child td.headercalendar:first-child a.applink::after {
+		content: ' Vorige';
+	}
+
+	body.listemployee #zo2-component .bookingformdiv > .btn-info table tr:first-child td.headercalendar:last-child a.applink::before,
+	body.listemployee #zo2-component .employee_timeslots > div > div > div > div.btn-info table tr:first-child td.headercalendar:last-child a.applink::before {
+		content: 'Volgende ';
+	}
+}
+
+@media screen and (min-width: 750px) and (max-width: 999px) {
+	body.listemployee #zo2-component .bookingformdiv > .btn-info table tr:first-child td.headercalendar:first-child a.applink::after,
+	body.listemployee #zo2-component .employee_timeslots > div > div > div > div.btn-info table tr:first-child td.headercalendar:first-child a.applink::after {
+		content: ' Vorige maand';
+	}
+
+	body.listemployee #zo2-component .bookingformdiv > .btn-info table tr:first-child td.headercalendar:last-child a.applink::before,
+	body.listemployee #zo2-component .employee_timeslots > div > div > div > div.btn-info table tr:first-child td.headercalendar:last-child a.applink::before {
+		content: 'Volgende maand ';
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	body.listemployee #zo2-component .bookingformdiv > .btn-info table tr:first-child td.headercalendar:first-child a.applink::after,
+	body.listemployee #zo2-component .employee_timeslots > div > div > div > div.btn-info table tr:first-child td.headercalendar:first-child a.applink::after {
+		content: ' Naar vorige maand';
+	}
+
+	body.listemployee #zo2-component .bookingformdiv > .btn-info table tr:first-child td.headercalendar:last-child a.applink::before,
+	body.listemployee #zo2-component .employee_timeslots > div > div > div > div.btn-info table tr:first-child td.headercalendar:last-child a.applink::before {
+		content: 'Naar volgende maand ';
+	}
+}
+
+#zo2-kkbottom-wrap {
+	display: block !important;
+}
+
+@media (max-width: 750px) {
+	#zo2-sidebar > .sidebar-cta {
+		margin-bottom: 1px !important;
+	}
+
+	#zo2-kkbottom-wrap .newsflash h4 {
+		margin-left: 2.2em !important;
+	}
+}
+
+.row-fluid.nostaffavailable > div.span12 {
+	padding: 1em;
+}
